@@ -12,14 +12,14 @@ export const Container = styled.SafeAreaView`
 `;
 
 export const CategoriesContainer = styled.View`
-    height: 73px;
+    height: 146px;
     background: gray;
     margin-top: 34px;
 `;
 
 export const MenuContainer = styled.View`
     flex: 1;
-    background: blue;
+    background: #fff;
 `;
 
 export const Footer = styled.View`
