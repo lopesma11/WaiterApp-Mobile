@@ -7,7 +7,7 @@ export const categories = [
     {
         _id: "6372d5bff9ebdda354700c90",
         name: "Bebidas",
-        icon: "🍻",
+        icon: "🍹",
     },
     {
         _id: "6372d5d2f9ebdda354700c92",
