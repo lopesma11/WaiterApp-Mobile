@@ -1,6 +1,5 @@
 import { FlatList } from "react-native";
 
-import { products } from "../../mocks/products";
 import { Text } from "../Text";
 import {
     ProductContainer,
@@ -17,9 +16,10 @@ import { Product } from "../../Types/Product";
 
 interface MenuProps {
     onAddToCart: (product: Product) => void;
+    products: Product[];
 }
 
-export function Menu({ onAddToCart }: MenuProps) {
+export function Menu({ onAddToCart, products }: MenuProps) {
     const [isModalVisible, setIsModalVisible] = useState<boolean>(false);
     const [selectedProduct, setSelectedProduct] = useState<null | Product>(
         null
