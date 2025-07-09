@@ -12,7 +12,7 @@ import { formatCurrency } from "../../utils/formatCurrency";
 import { PlusCircle } from "../Icons/PlusCircle";
 import { ProductModal } from "../ProductModal";
 import { useState } from "react";
-import { Product } from "../../Types/Product";
+import { Product } from "../../types/Product";
 
 interface MenuProps {
     onAddToCart: (product: Product) => void;

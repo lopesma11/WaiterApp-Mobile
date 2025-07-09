@@ -1,6 +1,6 @@
 import { FlatList, Modal } from "react-native";
 import { Text } from "../Text";
-import { Product } from "../../Types/Product";
+import { Product } from "../../types/Product";
 import {
     Image,
     CloseButton,
